@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
   "author": "DarkKnight",
   "license": "ISC",
   "dependencies": {
@@ -13,6 +17,7 @@
     "express": "^4.13.1",
     "jade": "^1.11.0",
     "morgan": "^1.6.1",
-    "stylus": "^0.52.0"
+    "stylus": "^0.52.0",
+    "mongoose": "^4.1.0"
   }
 }
