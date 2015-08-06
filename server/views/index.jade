@@ -1,6 +1,29 @@
 extends ../includes/layout
 
 block main-content
-    section.content
-        div(ng-view)
-    h2= mongoMessage
+    header.container
+        .row
+            nav.navbar.navbar-default
+                .container
+                    .navbar-header
+                        button.navbar-toggle.collapsed(type='button' aria-controls='navbar' aria-expanded='false' data-tagle='collapse' data-target='#navbar')
+                            span.sr-only Open the menu
+                            span.icon-bar
+                            span.icon-bar
+                            span.icon-bar
+                        a.navbar-brand(href='/') Logo
+                    .navbar-collapse.collapse(id='navbar' aria-expanded='false')
+                        ul.nav.navbar-nav.navbar-right
+                            li
+                                a(href='/') Home
+                            li
+                                a(href='/') Labs
+                            li
+                                a(href='/') About
+                            li
+                                a(href='/') Contact
+
+
+
+
+
